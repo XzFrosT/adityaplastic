@@ -1,19 +1,9 @@
 const plastikData = [
-	{
-		name: "Plastik",
-		weight: "3",
-		src: "/14.jpg"
-	},
-	{
-		name: "Plastik",
-		weight: "12",
-		src: "/15.jpg"
-	},
-	{
-		name: "Plastik",
-		weight: "50",
-		src: "/3.jpg"
-	}
+	"3.jpg",
+	"14.jpg",
+	"15.jpg",
+	"16.jpg",
+	"17.jpg"
 ];
 
 export const NomorWhatsApp = "6287710103719";

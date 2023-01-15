@@ -29,7 +29,7 @@ function Home() {
 	    					  Dalam kesempatan ini kami ingin menawarkan produk plastik wrapping kepada ibu / bapak.
 	    					</p>
 	    					<p>
-	    					  Kami memproduksi sendiri produk wrapping segel gas dengan harga ekonomis
+	    					  Kami memproduksi sendiri produk wrapping segel gas dengan harga ekonomis, Dan kami juga telah mengerjakan plastik wrapping segel untuk ratusan agen gas hampir diseluruh wilayah indonesia.
 	    					</p>
 	    				</div>
 	    			</div>

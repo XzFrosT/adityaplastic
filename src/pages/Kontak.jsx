@@ -20,7 +20,7 @@ function Contact() {
 	  	</div>
 	  	
 	  	<div>
-	  		<Heading title="Galeri Kami" className="text-center my-5 py-3"/>
+	  		<Heading title="Produk Kami" className="text-center my-5 py-3"/>
 	  		<Produk />
 	  	</div>
 	  </Base>

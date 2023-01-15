@@ -120,3 +120,35 @@ form button {
     font-size: 16px;
     cursor: pointer;
 }
+
+.masonry {
+  columns: 4;
+  column-gap: 16px;
+  @media (max-width: 1200px) {
+    columns: 3;
+  }
+  @media (max-width: 992px) {
+    columns: 2;
+  }
+
+  .masonry-grid {
+    display: inline-block;
+    margin-bottom: 16px;
+    position: relative;
+    &:before {
+      border-radius: 5px;
+      content:'';
+      position:absolute;
+      top:0;
+      right:0;
+      bottom:0;
+      left:0;
+      background-color:rgba(0,0,0,.2);
+    }
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+}
+

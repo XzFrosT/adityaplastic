@@ -4,10 +4,6 @@ const FormKontak = () => {
 	return (
 	  <div className="form container">
 	  	<div className="row align-items-center ">
-	  		<div className="col-md-6  p-5 my-auto">
-	  			<img src="12.jpg" alt="" width="100%"/>
-	  		</div>
-	    	
 	    	<div className="col-md-6 col-sm-12 px-4 mx-auto">
 	    		<form name='kontak' action="/wa">
 	    			<input type='hidden' name='form-name' value='contact' />

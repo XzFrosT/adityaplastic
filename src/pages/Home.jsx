@@ -1,8 +1,7 @@
 import Base from "../components/Base";
-import Card from "../components/Card";
 import FormKontak from "../components/FormKontak";
 import Heading from "../components/Heading";
-import Data from "../plastik-data/data";
+import Produk from "../components/Produk";
 
 function Home() {
 	return (
@@ -27,10 +26,10 @@ function Home() {
 	    			<div className="col-md-7 col-sm-12 my-auto">
 	    				<div className="content">
 	    					<p>
-	    						Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus consequatur corporis distinctio accusamus nulla, laudantium totam beatae veritatis expedita asperiores, id voluptas omnis facilis earum aperiam dolore reiciendis et placeat accusantium, doloribus voluptatum! Debitis cum omnis consectetur sapiente itaque non quaerat reiciendis nemo hic, veritatis magni, culpa quam voluptates natus.
+	    					  Dalam kesempatan ini kami ingin menawarkan produk plastik wrapping kepada ibu / bapak.
 	    					</p>
 	    					<p>
-	    						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eligendi voluptatem minima necessitatibus maiores asperiores, id repellat ratione ex ut amet vero, similique culpa distinctio.
+	    					  Kami memproduksi sendiri produk wrapping segel gas dengan harga ekonomis
 	    					</p>
 	    				</div>
 	    			</div>
@@ -39,22 +38,8 @@ function Home() {
 	    </div>
 	    
 	    <div>
-	    	<Heading title="Galeri Kami" className="text-center my-5 py-3"/>
-	    	<div className="container">
-	    		<div className="row justify-content-center">
-	    			{Data.map(({name, src, weight}, index) => {
-	    			return (
-	    			  <div className="col-md-3 col-sm-6 mb-5">
-	    			  	<Card
-	    			  	  name={name}
-	    			  	  src={src}
-	    			  	  weight={weight}
-	    			  	/>
-	    			  </div>
-	    			)
-	    			})}
-	    		</div>
-	    	</div>
+	    	<Heading title="Produk Kami" className="text-center my-5 py-3"/>
+	    	<Produk />
 	    </div>
 	    
 	    <div id="kontakKami" className="mb-5">

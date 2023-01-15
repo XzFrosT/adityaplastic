@@ -4,7 +4,7 @@ const Card = ({src, name, weight, description}) => {
 	return (
 	  <div className="text-center ">
 	  	<div className="px-2">
-	  		<img src={src} alt={name} width="100%"/>
+	  		<img src={src} alt={name} width="100%" height="200vh"/>
 	  	</div>
 	  	
 	  	<div className="d-flex justify-content-between px-3 heading align-items-center">
